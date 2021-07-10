@@ -1,0 +1,32 @@
+.parallax{
+    /* background-position-x: left; */
+    margin-top: -2%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin-left: 55.7%;
+    position:fixed;
+    background-image: url('./To-do\ list.png');
+    height: 100%;
+    width: 850px;
+    animation: fadeIn 0.9s;
+    -webkit-animation: fadeIn 0.9s;
+    -moz-animation: fadeIn 0.9s;
+    -o-animation: fadeIn 0.9s;
+    -ms-animation: fadeIn 0.9s;
+  /* background-color: red; */
+}
+
+.work-div{
+    /* margin-top: 2%; */
+    padding-top: 1%;
+    /* padding-bottom: 2%; */
+    justify-content: space;
+    /* background-color: red; */
+    width: 70%;
+    margin-left: 5%;
+}
+.div-back{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}

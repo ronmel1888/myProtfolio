@@ -1,0 +1,35 @@
+.work-cards{
+    /* border: 1px solid black; */
+    /* background-color: red; */
+    /* border-radius: 9px; */
+    position: center;
+    background-color: white;
+     width: 40rem; 
+     font-family: 'Josefin Sans', sans-serif;
+     border-radius: 15px 15px 0px 0px;
+     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+}
+.work-cards:hover{
+    box-shadow: 0 8px 16px 0 rgba(13, 42, 97, 0.322);
+    border-radius: 15px 15px 9px 9px;
+}
+.work-cards-img{
+    border-radius: 15px 15px 0px 0px;
+    width: 40rem; 
+    background-color: white;
+}
+.work-cards-body{
+    height: 80px;
+    background-color: white;
+    transition: 0.3s;
+}
+.work-cards-body:hover{
+    border-radius: 9px 9px 9px 9px;
+ 
+}
+.work-cards-header{
+    text-align: center;
+    background-color: rgba(233, 230, 230, 0.603);
+    
+}

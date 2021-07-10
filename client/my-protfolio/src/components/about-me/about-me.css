@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@510&display=swap');
+
+.divBack{
+    margin-top: 2.4%;
+    margin-left: 15%;
+    /* background-color: red; */
+    width: 80px;
+    height: 35px;
+}
+.linkBack{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: white;
+    transition: text-shadow 0.4s;
+}
+.linkBack:hover{
+    text-shadow: 2px 2px #2d41f0;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+
+}
+.info {
+font-family:'Inter', sans-serif;
+    margin-top: -23.5%;
+    margin-left: 20%;
+    line-height: 2.0;
+    width: 500px;
+    color: white;
+    /* background-color: red; */
+    animation: fadeIn 0.9s;
+    -webkit-animation: fadeIn 0.9s;
+    -moz-animation: fadeIn 0.9s;
+    -o-animation: fadeIn 0.9s;
+    -ms-animation: fadeIn 0.9s;
+    
+
+}
+.me-img{
+background-image: url('./DSC_0205.JPG');
+background-size:100%;
+background-repeat:no-repeat ;
+border-radius: 20px 20px;
+width: 500px;
+height: 400px;
+margin-top: 5%;
+margin-left: 57%;
+animation: fadeIn 2s;
+}
+.lfc{
+   transition: color 0.4s;
+}
+.lfc:hover{
+    color: red;
+
+}
+.social-media{
+    margin: 0;
+    padding-right: 10%;
+    justify-content: start;
+    margin-left: 63%;
+    margin-right: 20%;
+    margin-top: -6%;
+    animation: fadeIn 0.9s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }

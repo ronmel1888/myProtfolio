@@ -1,0 +1,15 @@
+.social-media{
+    /* margin-left: 55; */
+    justify-content: space-between;
+    display: flex-start;
+    align-items: center;
+    /* background-color: green; */
+    width: 250px;
+}
+.social-link{
+    transition: color 0.4s;
+}
+.social-link:hover{
+    color: #2d41f0;
+
+}

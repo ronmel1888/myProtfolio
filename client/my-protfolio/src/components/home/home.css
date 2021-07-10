@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+    background-color: black;
+}
+
+.my-image{
+  /* opacity: 0.7; */
+background-image: url('./Form.png');
+background-size:115%;
+background-repeat:no-repeat ;
+width: 450px;
+height: 400px;
+margin-top: 6%;
+margin-left: 65%;
+/* transition: 5s; */
+animation: fadeIn 3s;
+
+
+}
+/* .my-image:hover{
+    animation: shake 8s;
+  animation-iteration-count: infinite;
+  transition: 5s;
+} */
+.welcome{
+font-family: 'Anton', sans-serif;
+ /* background-color: red;    */
+ /* margin-left: 1%; */
+ width: 600px;
+ height: 310px;
+ margin-top: -25%;
+ margin-left: 15%;
+}
+
+.welcome-title{
+    font-size: 64px;
+    animation: movingTitle 3s;
+}
+.welcome-role-stack{ 
+    font-size: 82px;
+    animation: movingTitleTwo 4s;
+    margin-top: -5px;
+    margin-left: 55px;
+/* padding-top: -100px; */
+}
+.welcome-role-dev{
+    font-size: 82px;
+    animation: movingTitleThree 5s;
+    margin-top: -7.3%;
+    margin-left: 160px;
+    color: #bcebed;
+}
+.nav{
+/* background-color: green; */
+width: 300px;
+height: 300px;
+margin-left: 400px;
+}
+.navLink{
+    padding:20px;
+    padding-left: 80px;
+    height: 60px;
+    width: 300px;
+    /* background-color: red; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: white;
+    transition: text-shadow 0.4s;
+    animation: fadeIn 3s;
+}
+.navLink:hover{
+    text-shadow: 2px 2px #2d41f0;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  @keyframes movingTitle {
+    0%   {margin-left:0px; opacity: 0;}
+    25%  {margin-left:100px;}
+    50%  {margin-left:10px;}
+    75%  {margin-left:30px;}
+    100% {margin-left:0px;}
+  }
+  
+  @keyframes movingTitleTwo {
+    0%   {margin-left:0px; opacity: 0;}
+    25%  {margin-left:150px;opacity: 0.3;}
+    50%  {margin-left:60px;opacity: 0.7;}
+    75%  {margin-left:80px;}
+    100% {margin-left:55px;}
+  }
+  @keyframes movingTitleThree {
+    0%   {margin-left:0px; opacity: 0;}
+    25%  {margin-left:255px; opacity: 0.2;}
+    50%  {margin-left:165px;opacity: 0.5;}
+    75%  {margin-left:185px;opacity: 0.8;}
+    100% {margin-left:160px;}
+  }

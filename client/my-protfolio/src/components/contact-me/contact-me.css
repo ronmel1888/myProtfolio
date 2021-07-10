@@ -1,0 +1,38 @@
+.formDiv{
+    margin-top: -27%;
+    margin-left:48%;
+    width: 500px;
+    animation: fadeIn 1.5s;
+}
+
+.contact-image{
+    margin-top: 4%;
+    margin-left: 9%;
+    background-image: url('./thanksPic.png');
+    width: 38%;
+    height: 450px;
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.thanks-pic{
+    background-image: url('./Startup\ Idea.png');
+    margin-left: 55%;
+    margin-top: -22%;
+    width: 55%;
+    height: 240px;
+    background-size: 100%;
+    background-repeat:no-repeat ;
+}
+.modal-alert{
+    margin-left: 30%;
+    width: 600px;
+}
+.alert-header{
+    margin-top: 2%;
+    margin-left: 20%;
+}
+.alert-text{
+    width: 60%;
+
+}
