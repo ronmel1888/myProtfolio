@@ -30,8 +30,8 @@ router.post('/send', async (req, res) => {
         port: 465,
         secure: true, // true for 465, false for other ports
         auth: {
-            user: 'ronmel1888@aol.com', // generated ethereal user
-            pass: 'kbhotklffugnwnzq', // generated ethereal password' qelxfohmocsyfsyj' 
+            user: '', // generated ethereal user
+            pass: '', // generated ethereal password' qelxfohmocsyfsyj' 
         },
         tls: {
             rejectUnauthorized: false
